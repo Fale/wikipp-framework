@@ -1,0 +1,5 @@
+/** 
+* @namespace wikipp::wiki
+* Namespace that includes all the API to communicate with the mediawiki site
+* @author Fabio Alessandro Locati
+*/

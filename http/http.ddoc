@@ -1,0 +1,5 @@
+/**
+* @namespace wikipp::http
+* Namespace that includes the libraries used by the framework to make HTTP requestes.
+* @author Fabio Alessandro Locati
+*/

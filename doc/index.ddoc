@@ -1,0 +1,69 @@
+/*! \mainpage Wiki++ documentation
+ *
+ * \section intro_sec Introduction
+ *
+ * The Wiki++ lib are made to make easy the comunication between C++ and mediawiki.
+ *
+ * \section license Wiki++ license
+ * Copyright c 2008, 2009 by <b>Fabio Alessandro Locati</b> (fabiolocati@gmail.com).
+ * Permission to use, copy, modify, and distribute this software and its documentation under the terms of
+ * the <b>GNU General Public License</b> is hereby granted. No representations are made about the suitability of
+ * this software for any purpose. It is provided ”as is” without express or implied warranty. See the GNU
+ * General Public License for more details.<br />
+ * <b>Documentation</b>, produced by doxygen, is a works derived from the input used in their production; they
+ * are under the <b>CC-BY-SA 3.0</b>.
+
+ * \section install_sec Installation
+ * \subsection step1 Step 1: Download the source
+ * You can find the sources at http://git.f4l3.net/??/wiki++ the last branch version,
+ * while for the trunk version you have to look at http://git.f4l3.net/??/wiki++/master
+ * \subsection step2 Step 2: Install the library
+ * \subsubsection step2.1 linux (as root)
+ * <b>Install on Linux as root</b>
+ * <ol>
+ * <li>Move to the folder where you want the Wiki++ library. (I suggest: /usr/lib)
+ * <li>Login as root (or give sudo for all of the following commands)
+ * <li>Take the sources.
+ *    <ul>
+ *      <li>Source from branch
+ *      @code
+ *      svn co https://svn.toolserver.org/svnserver/fale/branches/current/wiki++
+ *      @endcode
+ *      <li>Source from trunk
+ *      @code
+ *      svn co https://svn.toolserver.org/svnserver/fale/trunk/wiki++
+ *      @endcode
+ *    </ul>
+ * <li>Copy the wiki++/libs/date_time_zones.csv in your main folder (~)
+ * <li>Have fun :)
+ * </ol>
+ * \subsubsection step2.2 linux (as normal user)
+ * <b>Install on Linux as normal user</b>
+ * <ol>
+ * <li>Move to the folder where you want the Wiki++ library. (I suggest: ~/wiki++)
+ * <li>Take the sources.
+ *    <ul>
+ *      <li>Source from branch
+ *      @code
+ *      svn co https://svn.toolserver.org/svnserver/fale/branches/current/wiki++
+ *      @endcode
+ *      <li>Source from trunk
+ *      @code
+ *      svn co https://svn.toolserver.org/svnserver/fale/trunk/wiki++
+ *      @endcode
+ *    </ul>
+ * <li>Copy the wiki++/libs/date_time_zones.csv in your main folder (~)
+ * <li>Have fun :)
+ * </ol>
+ * \subsubsection step2.3 MacOSX
+ * <b>Install on MacOSX</b><br />
+ * Not available at the moment
+ * \subsubsection step2.4 Windows
+ * <b>Install on Windows</b><br />
+ * Not available at the moment
+ *
+ * \section compile_sec Compile your program
+ * \subsection step1 Basic concepts
+ * Basically you have to link all the 
+ * \subsection step2 The code I usually use
+ */

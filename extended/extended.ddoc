@@ -1,0 +1,5 @@
+/**
+* @namespace wikipp::extended
+* Namespace that includes a lot of libraries to expand the Wiki++ framework
+* @author Fabio Alessandro Locati
+*/
