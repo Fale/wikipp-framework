@@ -22,7 +22,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 bool get()
 {
-  if ( wikipp::http::wget::get( "wikipp.net", "testGet.php" ) == "testOk" )
+  if ( wikipp::http::wget::get( "f4l3.net", "testGet.php" ) == "testOk" )
   {
     std::cout << "WGET.Get: OK" << std::endl;
     return 0;
@@ -36,7 +36,7 @@ bool get()
 
 bool post()
 {
-  if ( wikipp::http::wget::post( "wikipp.net", "testPost.php", "test=test" ) == "testOk" )
+  if ( wikipp::http::wget::post( "f4l3.net", "testPost.php", "test=test" ) == "testOk" )
   {
     std::cout << "WGET.Post: OK" << std::endl;
     return 0;
