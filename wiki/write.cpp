@@ -18,9 +18,6 @@
 #ifndef WIKIPP_WIKI_WRITE_CPP
 #define WIKIPP_WIKI_WRITE_CPP
 
-#include <iostream>
-#include <string>
-
 #include "write.h"
 
 namespace wikipp

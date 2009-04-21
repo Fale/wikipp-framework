@@ -25,8 +25,8 @@
 
 #include <boost/regex.hpp>
 
-#include <libs/convert.h>
-#include <libs/urlencode.h>
+#include "convert.h"
+#include "urlencode.h"
 
 /**
 * Function that allows you to create multilanguage apps

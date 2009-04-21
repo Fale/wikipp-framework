@@ -23,7 +23,7 @@
 #include "boost/date_time/local_time/local_time.hpp"
 #include "boost/date_time/gregorian/gregorian.hpp"
 
-#include <libs/convert.h>
+#include "convert.h"
 
 namespace wikipp
 {

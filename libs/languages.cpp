@@ -18,7 +18,7 @@
 #ifndef WIKIPP_LIBS_LANGUAGES_CPP
 #define WIKIPP_LIBS_LANGUAGES_CPP
 
-#include <libs/languages.h>
+#include "languages.h"
 
 namespace wikipp
 {

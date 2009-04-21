@@ -25,7 +25,7 @@
 
 #include <boost/regex.hpp>
 
-#include <http/http.h>
+#include "../http/http.h"
 
 namespace wikipp
 {

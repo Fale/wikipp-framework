@@ -18,7 +18,7 @@
 #ifndef WIKIPP_LIBS_DATI_CPP
 #define WIKIPP_LIBS_DATI_CPP
 
-#include <libs/dati.h>
+#include "dati.h"
 
 namespace wikipp
 {

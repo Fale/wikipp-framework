@@ -26,12 +26,12 @@
 
 #include <boost/regex.hpp>
 
-#include <http/http.h>
+#include "../http/http.h"
 #ifdef HTTP_WGET
-  #include <http/wget.h>
-  #include <libs/dati.h>
+  #include "../http/wget.h"
+  #include "../libs/dati.h"
 #endif
-#include <libs/convert.h>
+#include "../libs/convert.h"
 
 namespace wikipp
 {

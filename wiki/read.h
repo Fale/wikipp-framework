@@ -23,8 +23,8 @@
 
 #include <boost/regex.hpp>
 
-#include <http/http.h>
-#include <libs/urlencode.h>
+#include "../http/http.h"
+#include "../libs/urlencode.h"
 
 namespace wikipp
 {

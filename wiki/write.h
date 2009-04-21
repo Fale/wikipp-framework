@@ -23,10 +23,10 @@
 
 #include <boost/regex.hpp>
 
-#include <http/http.h>
-#include <libs/urlencode.h>
-#include <wiki/edittoken.h>
-#include <wiki/read.h>
+#include "../http/http.h"
+#include "../libs/urlencode.h"
+#include "edittoken.h"
+#include "read.h"
 
 namespace wikipp
 {

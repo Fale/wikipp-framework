@@ -18,7 +18,7 @@
 #ifndef WIKIPP_LIBS_PRGDATA_CPP
 #define WIKIPP_LIBS_PRGDATA_CPP
 
-#include <libs/prgdata.h>
+#include "prgdata.h"
 
 namespace wikipp
 {

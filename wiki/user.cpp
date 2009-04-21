@@ -19,6 +19,7 @@
 #define WIKIPP_WIKI_USER_CPP
 
 #include "user.h"
+
 namespace wikipp
 {
   namespace wiki

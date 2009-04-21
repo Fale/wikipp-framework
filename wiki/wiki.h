@@ -22,15 +22,15 @@
 #include <string>
 #include <vector>
 
-#include <wiki/categories.h>
-#include <wiki/edittoken.h>
-#include <wiki/images.h>
-#include <wiki/login.h>
-#include <wiki/move.h>
-#include <wiki/read.h>
-#include <wiki/relatedpages.h>
-#include <wiki/user.h>
-#include <wiki/write.h>
+#include "categories.h"
+#include "edittoken.h"
+#include "images.h"
+#include "login.h"
+#include "move.h"
+#include "read.h"
+#include "relatedpages.h"
+#include "user.h"
+#include "write.h"
 
 namespace wikipp
 {

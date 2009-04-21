@@ -23,10 +23,10 @@
 
 #include <boost/regex.hpp>
 
-#include <http/http.h>
-#include <http/wget.h>
-#include <libs/convert.h>
-#include <wiki/read.h>
+#include "../http/http.h"
+#include "../http/wget.h"
+#include "../libs/convert.h"
+#include "read.h"
 
 namespace wikipp
 {

@@ -18,11 +18,11 @@
 #ifndef WIKIPP_LIBS
 #define WIKIPP_LIBS
 
-#include <libs/config.h>
-#include <libs/convert.h>
-#include <libs/dati.h>
-#include <libs/languages.h>
-#include <libs/prgdata.h>
-#include <libs/urlencode.h>
+#include "config.h"
+#include "convert.h"
+#include "dati.h"
+#include "languages.h"
+#include "prgdata.h"
+#include "urlencode.h"
 
 #endif

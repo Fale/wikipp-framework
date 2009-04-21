@@ -18,7 +18,7 @@
 #ifndef WIKIPP_LIBS_URLENCODE_CPP
 #define WIKIPP_LIBS_URLENCODE_CPP
 
-#include <libs/urlencode.h>
+#include "urlencode.h"
 
 namespace wikipp
 {

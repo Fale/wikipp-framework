@@ -24,8 +24,8 @@
 
 #include <boost/regex.hpp>
 
-#include <http/http.h>
-#include <libs/convert.h>
+#include "../http/http.h"
+#include "../libs/convert.h"
 
 namespace wikipp
 {

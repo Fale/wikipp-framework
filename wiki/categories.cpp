@@ -18,7 +18,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #ifndef WIKIPP_WIKI_CATEGORIES_CPP
 #define WIKIPP_WIKI_CATEGORIES_CPP
 
-#include <wiki/categories.h>
+#include "categories.h"
 
 namespace wikipp
 {
