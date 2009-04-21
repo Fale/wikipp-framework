@@ -27,10 +27,7 @@
 #include <boost/regex.hpp>
 
 #include "../http/http.h"
-#ifdef HTTP_WGET
-  #include "../http/wget.h"
-  #include "../libs/dati.h"
-#endif
+#include "../libs/dati.h"
 #include "../libs/convert.h"
 
 namespace wikipp
