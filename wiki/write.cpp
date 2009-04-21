@@ -61,7 +61,7 @@ namespace wikipp
       if ( bot == true )
         uri += "&bot=1";
 
-      std::string postvalues( "wpTextbox1=\"" + libs::urlEncode::urlencode( text ) + "\"&wpSummary=" + libs::urlEncode::urlencode( summary ) + "&wpStarttime=" + startTimeR[2] + "&wpEdittime=" + editTimeR[2] );
+      std::string postvalues( "wpTextbox1=" + libs::urlEncode::urlencode( text ) + "&wpSummary=" + libs::urlEncode::urlencode( summary ) + "&wpStarttime=" + startTimeR[2] + "&wpEdittime=" + editTimeR[2] );
 
       if ( recreate == true )
         postvalues += "&wpRecreate=1";
