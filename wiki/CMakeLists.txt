@@ -17,7 +17,7 @@ install(FILES categories.h
               relatedpages.h
               user.h
               write.h
-DESTINATION include/wiki/wiki/
+DESTINATION include/wiki++/wiki/
 COMPONENT Devel)
 
 install(TARGETS wikipp_wiki_categories

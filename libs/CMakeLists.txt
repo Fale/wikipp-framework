@@ -10,7 +10,7 @@ install(FILES config.h
               prgdata.h
               urlencode.h
               libs.h
-DESTINATION include/wiki/libs/
+DESTINATION include/wiki++/libs/
 COMPONENT Devel)
 
 install(TARGETS wikipp_libs_dati
