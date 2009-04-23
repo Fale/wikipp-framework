@@ -26,7 +26,7 @@ namespace wikipp
   {
     std::string index::yahoo( std::string index )
     {
-      std::string data( wikipp::http::http::get( "it.finance.yahoo.com","q?s=" + index ) );
+      std::string data( http::http::get( "it.finance.yahoo.com","q?s=" + index ) );
       std::string image;
       std::string colour;
       std::string sign;
