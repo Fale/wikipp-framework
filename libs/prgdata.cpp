@@ -151,7 +151,7 @@ namespace wikipp
       return match[2];
     }
 
-    std::string prgdata::getVariable(std::string variable)
+    std::string prgdata::getVariable( std::string variable )
     {
       std::string string;
       std::stringstream sstr;
@@ -170,6 +170,18 @@ namespace wikipp
       #endif
 
       return match[2];
+    }
+
+    std::vector<std::string> prgdata::getStdValues()
+    {
+      std::vector<std::string> ret;
+      ret.push_back( prgdata::getUsername() );
+      ret.push_back( prgdata::getPassword() );
+      ret.push_back( prgdata::getProject() );
+      ret.push_back( prgdata::getPage() );
+      ret.push_back( prgdata::getTimeZone() );
+      ret.push_back( prgdata::getLanguage() );
+      return ret;
     }
 
   }

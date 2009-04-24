@@ -24,6 +24,7 @@
 #include <string>
 #include <fstream>
 #include <sstream>
+#include <vector>
 
 #include <boost/regex.hpp>
 
@@ -131,6 +132,24 @@ namespace wikipp
         * @return The value of the variable setted in the config file with the name indicated as imput
         */
         static std::string getVariable( std::string );
+
+        /**
+        * Function that take care of managing all the standard values
+        *
+        * @code
+        * std::vector<std::string> vec;
+        * vec = wikipp::libs::prgdata::getStdValues();
+        * std::cout << "Username: " << vec[0] << std::endl;
+        * std::cout << "Password: " << vec[1] << std::endl;
+        * std::cout << "Project: " << vec[2] << std::endl;
+        * std::cout << "Page: " << vec[3] << std::endl;
+        * std::cout << "Time Zone: " << vec[4] << std::endl;
+        * std::cout << "Language: " << vec[5] << std::endl;
+        * @endcode
+        *
+        * @return The values of the standard requests
+        */
+        static std::vector<std::string> getStdValues();
     };
   }
 }
