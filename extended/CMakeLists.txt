@@ -4,7 +4,7 @@ add_library (wikipp_extended_storm SHARED storm.cpp)
 
 install(FILES currency.h
               index.h
-              strom.h
+              storm.h
 DESTINATION include/wiki++/extended/
 COMPONENT Devel)
 

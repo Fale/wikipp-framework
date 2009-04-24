@@ -9,6 +9,7 @@ install(FILES config.h
               dati.h
               prgdata.h
               urlencode.h
+              languages.h
               libs.h
 DESTINATION include/wiki++/libs/
 COMPONENT Devel)
