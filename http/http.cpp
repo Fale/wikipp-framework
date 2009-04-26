@@ -113,7 +113,6 @@ namespace wikipp
       if ( bkd == "wget" )
         return wget::post( url, link, postValues, cookies, ua );
     }
-
   }
 }
 
