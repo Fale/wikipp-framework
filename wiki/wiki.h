@@ -34,50 +34,52 @@
 
 namespace wikipp
 {
-
-  /**
-  * Convinient class that allows users to write less lines of code
-  *
-  * @author Fabio Alessandro Locati
-  */
-  class wiki
+  namespace wiki
   {
-    public:
-      // Constructor
-      wiki( std::string, std::string, std::string, std::string );
+    /**
+    * Convinient class that allows users to write less lines of code
+    *
+    * @author Fabio Alessandro Locati
+    */
+    class wiki
+    {
+      public:
+        // Constructor
+        wiki( std::string, std::string, std::string, std::string );
 
-      // Basic settings
-      void setSite( std::string );
-      void setProject( std::string );
-      void setLanguage( std::string );
-      void setUsername( std::string );
-      void setPassword( std::string );
-      std::string getSite();
-      std::string getProject();
-      std::string getLanguage();
-      std::string getUsername();
-      std::string getPassword();
+        // Basic settings
+        void setSite( std::string );
+        void setProject( std::string );
+        void setLanguage( std::string );
+        void setUsername( std::string );
+        void setPassword( std::string );
+        std::string getSite();
+        std::string getProject();
+        std::string getLanguage();
+        std::string getUsername();
+        std::string getPassword();
 
-      // Categories.h
-      std::vector<std::string> categoryFetchMembers( std::string, std::string, int, int );
-      int categoryCountMembers( std::string, std::string );
+        // Categories.h
+        std::vector<std::string> categoryFetchMembers( std::string, std::string, int, int );
+        int categoryCountMembers( std::string, std::string );
 
-      // EditToken.h
-      std::string getEditToken( std::string );
+        // EditToken.h
+        std::string getEditToken( std::string );
 
-      bool login( std::string, std::string, std::string );
-      std::string readPage( std::string, std::string );
-      std::string readSource( std::string, std::string );
-    private:
+        bool login( std::string, std::string, std::string );
+        std::string readPage( std::string, std::string );
+        std::string readSource( std::string, std::string );
+      private:
 
-      void generateSite();
+        void generateSite();
 
-      std::string site;
-      std::string proj;
-      std::string lang;
-      std::string user;
-      std::string pass;
-  };
+        std::string site;
+        std::string proj;
+        std::string lang;
+        std::string user;
+        std::string pass;
+    };
+  }
 }
 
 #endif
