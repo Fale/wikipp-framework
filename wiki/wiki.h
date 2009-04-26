@@ -15,8 +15,8 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-#ifndef WIKIPP_WIKI
-#define WIKIPP_WIKI
+#ifndef WIKIPP_WIKI_H
+#define WIKIPP_WIKI_H
 
 #include <iostream>
 #include <string>
